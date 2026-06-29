@@ -12,4 +12,4 @@ End-to-end deployment optimization of YOLOv5s on NVIDIA GPU: **PyTorch → ONNX 
 - Python inference SDK with async post-processing (CPU-NMS)
 - Automated benchmark comparing latency, throughput, and mAP across all precisions
 
-**Target Hardware:** RTX 3090 / T4 / RTX 3060
+
