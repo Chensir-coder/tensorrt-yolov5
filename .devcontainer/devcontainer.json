@@ -1,0 +1,9 @@
+{
+  "name": "TensorRT Dev",
+  "image": "nvcr.io/nvidia/tensorrt:22.12-py3",
+  "runArgs": ["--gpus", "all"],
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind"
+  ]
+}
